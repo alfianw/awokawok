@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&family=Rubik+Burned&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+.warpNav {
+    height: 70px;
+    background-color: #21201f;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 80px;
+    flex-wrap: wrap;
+}
+
+nav h1 {
+    color: #ef6817;
+}
+
+.bntNav a {
+    text-decoration: none;
+    color: #ef6817;
+}
+
+.bntNav {
+    display: flex;
+    gap: 30px;
+}
+
+.containerMovie{
+    gap: 30px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.containerMovie a{
+    text-decoration: none;
+    color: white;
+}
+
+.cardMovie{
+    width: 1000px;
+    height: 250px;
+    background-color: #ef6817;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.akun{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.akun h1{
+    font-size: 16px;
+}
+
+.articleMovie{
+    height: 280px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#imgAkun{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+}
+
+#imgCard{
+    width: 250px;
+    height: 250px;
+}
