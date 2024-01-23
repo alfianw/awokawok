@@ -18,6 +18,7 @@
                 <a href="index.html">Home</a>
                 <a href="moviecard.html">Video</a>
                 <a href="https://opiahmmad.github.io/">Game</a>
+                <button onclick="showPopup()" id="support">Support Developer</button>
             </div>
         </div>
     </nav>
@@ -48,20 +49,15 @@
     </div>
 </body>
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        showPopup();
-    });
+function showPopup() {
+    var popupContainer = document.getElementById('popupContainer');
+    popupContainer.style.display = 'flex';
+}
 
-    function showPopup() {
-        var popupContainer = document.getElementById('popupContainer');
-        popupContainer.style.display = 'flex';
-    }
-
-    function closePopup() {
-        var popupContainer = document.getElementById('popupContainer');
-        popupContainer.style.display = 'none';
-    }
-
+function closePopup() {
+    var popupContainer = document.getElementById('popupContainer');
+    popupContainer.style.display = 'none';
+}
 </script>
 
 </html>
