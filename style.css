@@ -140,3 +140,17 @@ article p{
     border-radius: 10px;
     border: none;
 }
+
+.footer{
+    height: 60px;
+    background-color: #ef6817;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.footer h1{
+    font-size: 16px;
+}
